@@ -3,19 +3,18 @@ A mastodon rss reader & toot bot.
 
 Very simply, a script that reads a list of RSS feeds and toots anything new!
 
-We measure "new" by the last time we posted.
-
-## AUTHOR 
- by @mpoletiek
- - https://mastodon.social/@mpoletiek
- - https://github.com/mpoletiek
+We use Redis to remember old posts.
 
 ## CREDITS 
  Major inspiration to be found below.
  - https://github.com/hanscees/mastodon-bot
 
-## RSSBOT
- RSS Bot for Mastodon.
+## Examples
+MetaWarrior Army uses this project to run news bots at the following accounts:
+
+- https://mastodon.metawarrior.army/@technewz_bot
+- https://mastodon.metawarrior.army/@biznewz_bot
+- https://mastodon.metawarrior.army/@worldnewz_bot
 
 ## DEPENDENCIES
 ```
