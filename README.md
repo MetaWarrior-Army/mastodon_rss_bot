@@ -12,9 +12,9 @@ We use Redis to remember old posts.
 ## Examples
 MetaWarrior Army uses this project to run news bots at the following accounts:
 
-- https://mastodon.metawarrior.army/@technewz_bot
-- https://mastodon.metawarrior.army/@biznewz_bot
-- https://mastodon.metawarrior.army/@worldnewz_bot
+- [technewz_bot](https://mastodon.metawarrior.army/@technewz_bot){:rel="me"}
+- [biznewz_bot](https://mastodon.metawarrior.army/@biznewz_bot){:rel="me"}
+- [worldnewz_bot](https://mastodon.metawarrior.army/@worldnewz_bot){rel="me"}
 
 ## DEPENDENCIES
 ```
