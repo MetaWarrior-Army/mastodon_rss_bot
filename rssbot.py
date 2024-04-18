@@ -62,7 +62,7 @@ def is_new_entry(stor,entry_link):
 
 # Get RSS Feeds from URL
 def get_rss_feeds(csv_url):
-    r = requests.get(csv_url, stream = True)
+    r = requests.get(csv_url, stream = True, headers={'Cache-Control':'no-cache'})
     feed_list = []
     csvFile = csv.reader(r.content.decode('utf-8').splitlines(),delimiter=',')
     for lines in csvFile:
